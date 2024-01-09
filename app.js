@@ -20,26 +20,30 @@ app.use(express.static("public"));
 app.use(express.static("views"));
 
 app.get("/", (req, res) => {
-    res.sendFile(__dirname + "/views/index.html");
+    res.sendFile(__dirname + "/views/0index.html");
 });
 
-app.get("/views/index.html", (req, res) => {
-    res.sendFile(__dirname + "/views/index.html");
+app.get("/views/0index.html", (req, res) => {
+    res.sendFile(__dirname + "/views/0index.html");
 });
 
-app.get("/views/ncal.html", (req, res) => {
-    res.sendFile(__dirname + "/views/ncal.html");
+app.get("/views/2profileem.html", (req, res) => {
+    res.sendFile(__dirname + "/views/2profileem.html");
 });
 
-app.get("/views/nrunback.html", (req, res) => {
-    res.sendFile(__dirname + "/views/nrunback.html");
+app.get("/views/3listeq.html", (req, res) => {
+    res.sendFile(__dirname + "/views/3listeq.html");
 });
 
-app.get("/views/app.html", (req, res) => {
-    res.sendFile(__dirname + "/views/app.html");
+app.get("/views/4borroweq.html", (req, res) => {
+    res.sendFile(__dirname + "/views/4borroweq.html");
 });
 
-app.use("/news", newsRoute);
+app.get("/views/5returneq.html", (req, res) => {
+    res.sendFile(__dirname + "/views/5returneq.html");
+});
+
+
 
 //2023-01
 app.get("/search", (req, res) => {
@@ -50,6 +54,6 @@ app.get("/search", (req, res) => {
     });
 });
 
-app.listen(4000, () => {
-    console.log("เซิร์ฟเวอร์ทำงานที่พอร์ต 4000");
+app.listen(9000, () => {
+    console.log("เซิร์ฟเวอร์ทำงานที่พอร์ต 9000");
 });
