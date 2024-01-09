@@ -57,38 +57,3 @@ button:hover {
     margin-top: 8px;
 }
 
-/* ส่วนเมยูบาร์ */
-.container-nav {
-    margin: 0 auto;
-    background-color: #f0f0f0;
-}
-ul.menu {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
-    width: 600px;
-    list-style-type: none;
-    margin: 0;
-    padding: 20px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    background-color: #4caf50;
-    overflow: hidden;
-
-}
-
-ul.menu li {
-    float: left;
-}
-
-ul.menu li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-ul.menu.sticky li a {
-    background-color: #333;
-}
