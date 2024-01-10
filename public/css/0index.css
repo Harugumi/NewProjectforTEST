@@ -105,16 +105,16 @@ ul.menu.sticky li a {
     max-width: 1000px;
     max-height: auto;
     margin: 0 auto;
-    background-color: #CCC8AA; /* กรอบนอกสุด */
+    border-radius: 8px;
     padding: 0 ;
 }
 
 .container-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 600px;
     text-align: center;
-    max-width: 900px;
-    margin: 20px auto;
-    padding: 0 ;
-    border: 1px solid #7D7C7C;
-    background-color: #F1EFEF; /* กรอบในสุด */
-    border-radius: 10px;
 }
