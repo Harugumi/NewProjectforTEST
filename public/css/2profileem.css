@@ -17,6 +17,7 @@ body {
     max-width: 800px;
     width: 800px;
     text-align: center;
+    height: 80vh;
 }
 
 h2 {
@@ -31,6 +32,7 @@ h2 {
     display: block;
     margin-bottom: 8px;
     color: #555;
+    font-weight: bold;
 }
 
 .user-info p {
@@ -38,19 +40,7 @@ h2 {
     color: #333;
 }
 
-.logout-btn {
-    background-color: #e74c3c;
-    color: #fff;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 100%;
-}
 
-.logout-btn:hover {
-    background-color: #c0392b;
-}
 /* ส่วนเมยูบาร์ */
 .container-nav {
     margin: 0 auto;
@@ -68,11 +58,14 @@ ul.menu {
     cursor: pointer;
     background-color: #4caf50;
     overflow: hidden;
+    position: Justify;
     
 }
 
 ul.menu li {
+    padding: 1px 20px;
     float: left;
+    text-align: center;
 }
 
 ul.menu li a {

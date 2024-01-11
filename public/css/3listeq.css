@@ -17,6 +17,7 @@ body {
     max-width: 800px;
     width: 800px;
     text-align: center;
+    height: 80vh;
 }
 
 h2 {
@@ -87,7 +88,9 @@ ul.menu {
 }
 
 ul.menu li {
+    padding: 1px 20px;
     float: left;
+    text-align: center;
 }
 
 ul.menu li a {
