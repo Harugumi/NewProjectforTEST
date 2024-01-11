@@ -16,8 +16,9 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 800px;
     width: 800px;
+    height: 400px;
     text-align: center;
-    height: 80vh;
+    height: 50vh;
 }
 
 h2 {
@@ -83,9 +84,9 @@ ul.menu {
     cursor: pointer;
     background-color: #4caf50;
     overflow: hidden;
+    position: Justify;
     
 }
-
 ul.menu li {
     padding: 1px 20px;
     float: left;

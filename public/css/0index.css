@@ -18,7 +18,7 @@ body {
     width: 800px;
     height: 400px;
     text-align: center;
-    height: 80vh;
+    height: 50vh;
 }
 
 h2 {
@@ -42,6 +42,7 @@ ul.menu {
     cursor: pointer;
     background-color: #4caf50;
     overflow: hidden;
+    position: Justify;
     
 }
 

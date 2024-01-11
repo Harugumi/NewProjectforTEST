@@ -16,9 +16,11 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 800px;
     width: 800px;
+    height: 400px;
     text-align: center;
-    height: 80vh;
+    height: 50vh;
 }
+
 
 h2 {
     color: #333;
