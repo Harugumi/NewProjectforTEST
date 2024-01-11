@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/3listeq.css" />
-    <title>Request Return Tool</title>
-
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css">
+    <title>List Equipment</title>
 </head>
 <body>
     <div class="container-nav">
@@ -18,10 +18,24 @@
             <li><a href="5returneq.html">Return Equipment</a></li>
         </ul>
 
-        <div class="table-list-equipment">
+        <!-- เพิ่ม <table> ที่มี id เป็น equipment-table -->
+        <table id="equipment-table" class="display">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Equipment Name</th>
+                    <th>Available Quantity</th>
+                    <th>Total Quantity</th>
+                    <th>Status</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody id="equipment-table-body"></tbody>
+        </table>
 
-        </div>
+        <script src="/js/3listeq.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"></script>
     </div>
-
 </body>
 </html>

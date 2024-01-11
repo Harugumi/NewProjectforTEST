@@ -122,6 +122,19 @@ app.get("/views/3listeq.html", (req, res) => {
     res.sendFile(__dirname + "/views/3listeq.html");
 });
 
+app.get("/api/equipmentList", (req, res) => {
+    // ดึงข้อมูลอุปกรณ์จากฐานข้อมูล
+    db.all("SELECT * FROM List_equipment", (err, rows) => {
+        if (err) {
+            console.error(err);
+            return res.status(500).send("Internal Server Error");
+        }
+
+        res.json(rows);  // ส่งข้อมูลเป็น JSON กลับไปที่ client
+    });
+});
+
+
 app.get("/views/4borroweq.html", (req, res) => {
     res.sendFile(__dirname + "/views/4borroweq.html");
 });
